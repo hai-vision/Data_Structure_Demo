@@ -11,12 +11,17 @@ void LinkListReverse(LNode** phead)
 		② 销毁 phead 所指向的链表
 		③ 将 phead 指向 tmp
 	*/
-	LNode* cur = (*phead);
+	LNode* cur = *phead;
 	LNode* tmp = NULL;
 	if ((*phead) == NULL)
 	{
 		printf("链表为空\n");
 		return;
+	}
+	else {
+		while (cur != NULL) {
+
+		}
 	}
 	
 

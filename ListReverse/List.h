@@ -22,4 +22,4 @@ void LinkListReverse(LNode** phead);
 // 遍历链表元素
 void LinkListPrint(LNode* phead);
 // 头插
-void LinkListPushFront(LNode** phead, ElemType x);
+void LinkListPushFront(LNode** destination, LNode* source );
